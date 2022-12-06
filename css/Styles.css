@@ -1,7 +1,3 @@
-* {
-   box-sizing: border-box; 
-}
-
 
 @font-face {
     font-family: 'loraitalic';
@@ -19,4 +15,20 @@
     font-weight: normal;
     font-style: normal;
 
+}
+
+* {
+   box-sizing: border-box; 
+}
+
+h1 {
+    font-family: 'epilouge', sans-serif;
+}
+
+h2 {
+    font-family: 'aleo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+p {
+    font-family: 'loraregular', 'Times New Roman', Times, serif;
 }
