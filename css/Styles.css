@@ -103,6 +103,13 @@ footer {
     margin-top: 2rem;
 }
 
+.img1 {
+    display: block;
+    height: 100px;
+    margin-inline: auto;
+    width: auto;
+}
+
 .img2 {
     display: block;
     height: 425px;
@@ -130,6 +137,20 @@ footer {
     height: 200px;
     margin-inline: auto;
     width:auto 
+}
+
+.img6 {
+    display: block;
+    height: 300px;
+    margin-inline: auto;
+    width: auto;
+}
+
+.img7 {
+    display: block;
+    height: 75px;
+    margin-inline: auto;
+    width: auto;
 }
 
 .lantern {
@@ -183,6 +204,7 @@ footer {
 
 .nav {
     font-size: 17px;
+    color: var(--light-grey);
 }
 
 .footer a:hover, .footer a:visited {
@@ -191,10 +213,12 @@ footer {
 
 .footer {
     font-size: 12px;
+    color: var(--light-grey);
 }
 
 .contact {
     font-size: 12px;
+    color: var(--light-grey);
 }
 .wrapper {
     max-width: 390px;
