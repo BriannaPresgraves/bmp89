@@ -1,3 +1,11 @@
+:root {
+    --black: #000000;
+    --white: #F9F9F9;
+    --blue: #096092;
+    --dark-grey: #485A64;
+    --light-grey: #CDD2D4;
+    --light-blue: #78B3BB;
+}
 
 @font-face {
     font-family: 'loraitalic';
@@ -18,8 +26,19 @@
 }
 
 * {
-   box-sizing: border-box; 
+   box-sizing: border-box;
 }
+
+body {
+    align-items: center;
+    background-color: var(--white);
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+}
+
+/* header {
+} */
 
 h1 {
     font-family: 'epilouge', sans-serif;
@@ -32,3 +51,32 @@ h2 {
 p {
     font-family: 'loraregular', 'Times New Roman', Times, serif;
 }
+
+nav {
+    align-items: center;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-around;
+}
+
+.study {
+    color: var(--dark-grey);
+}
+
+.case {
+    color: var(--blue);
+}
+
+.case a:hover, .case a:visited {
+    color: var(--dark-grey);
+}
+
+.nav a:hover, .nav a:visited {
+    color: var(--light-blue);
+}
+
+/* .casestudy1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
