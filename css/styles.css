@@ -116,28 +116,28 @@ footer {
     height: 425px;
     margin-inline: auto;
     margin-bottom: 1.25rem;
-    width:auto 
+    width:auto; 
 }
 
 .img3 {
     display: block;
     height: 200px;
     margin-inline: auto;
-    width:auto 
+    width:auto; 
 }
 
 .img4 {
     display: block;
     height: 150px;
     margin-inline: auto;
-    width:auto 
+    width:auto; 
 }
 
 .img5 {
     display: block;
     height: 200px;
     margin-inline: auto;
-    width:auto 
+    width:auto; 
 }
 
 .img6 {
@@ -176,7 +176,7 @@ footer {
     display: block;
     height: 170px;
     margin-inline: auto;
-    width:auto
+    width:auto;
 }
 
 .project {
@@ -194,7 +194,7 @@ footer {
     display: block;
     height: 160px;
     margin-inline: auto;
-    width:auto 
+    width:auto; 
 }
 
 .study {
