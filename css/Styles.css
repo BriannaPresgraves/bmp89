@@ -70,6 +70,7 @@ p {
 nav {
     align-items: center;
     background-color: var(--blue);
+    color: var(--light-grey);
     display: flex;
     font-size: 12px;
     justify-content: space-around;
@@ -155,6 +156,7 @@ footer {
 
 .lantern {
     background-color: var(--light-grey);
+    color: var(--blue);
     margin-top: 2rem;
     margin-inline: auto;
     padding-block: 0.1rem;
@@ -163,6 +165,7 @@ footer {
 
 .malloo {
     background-color: var(--light-grey);
+    color: var(--blue);
     margin-inline: auto;
     margin-top: 2rem;
     padding-block: 0.1rem;
